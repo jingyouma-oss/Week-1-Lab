@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jingyou Ma | Personal Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <div>
+        <p class="eyebrow">Computer Science Student</p>
+        <h1>Jingyou Ma</h1>
+        <p class="tagline">Learning the fundamentals of web development one project at a time.</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>
+        I am a computer science student who enjoys building practical projects and learning how websites work from the ground up.
+        I am taking this course to become more confident with the tools and habits used in real development workflows.
+      </p>
+    </section>
+
+    <section class="card" aria-labelledby="interests-heading">
+      <h2 id="interests-heading">Interests</h2>
+      <ul class="interests-list">
+        <li>Web development and UI design</li>
+        <li>Problem solving with code</li>
+        <li>Reading about technology trends</li>
+        <li>Learning new tools and workflows</li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>If you would like to connect, you can reach me here:</p>
+      <p>
+        <a href="mailto:you@example.com">Email</a>
+        <span class="divider">|</span>
+        <a href="https://github.com/jingyouma-oss" target="_blank" rel="noreferrer">GitHub</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Jingyou Ma. Built for Week 1 Lab.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+<!--
+REFLECTION:
+1. The CSS property that felt most confusing was justify-content because I had to understand how alignment changes depending on flex direction. I figured it out by testing values in DevTools and watching the layout shift immediately.
+2. I first tried spacing elements with uneven margins, and the page felt inconsistent. DevTools helped me see the box model clearly, so I switched to cleaner padding and gap-based spacing.
+3. If I had more time, I would add a projects section, a profile photo, and a responsive dark mode version.
+-->
