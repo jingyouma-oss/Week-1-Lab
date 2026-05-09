@@ -39,6 +39,7 @@ body {
   align-items: center;
   text-align: center;
   min-height: 220px;
+  gap: 1.5rem;
 }
 
 .eyebrow {
@@ -121,6 +122,10 @@ a:focus-visible {
 @media (max-width: 600px) {
   .site-header {
     padding: 3rem 0 2.5rem;
+  }
+
+  .header-content {
+    flex-direction: column;
   }
 
   .card {
